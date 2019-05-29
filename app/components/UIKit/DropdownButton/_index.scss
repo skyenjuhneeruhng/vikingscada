@@ -1,0 +1,45 @@
+
+.c-dropdown {
+  .dropdown-menu {
+    position: absolute; 
+    will-change: transform; 
+    top: 0px; 
+    left: 0px; 
+    transform: translate3d(0px, 37px, 0px);
+  }
+
+  .m-badge {
+    border: none;
+    box-shadow: none;
+    color: #fff;
+    font-family: Poppins;
+    padding-right: 6px;
+    cursor: pointer;
+
+    &:after {
+      text-align: center;
+      display: inline;
+      border: 0;
+      font-family: LineAwesome;
+      text-decoration: inherit;
+      text-rendering: optimizeLegibility;
+      text-transform: none;
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: antialiased;
+      font-smoothing: antialiased;
+      content: "";
+      font-size: .8rem;
+      line-height: 0;
+      vertical-align: middle;
+      top: -.1em;
+      position: relative;
+      margin-left: 5px;
+  }
+    &--warning {
+      background-color: #f78c0f !important;
+    }
+  }
+}
+
+
+

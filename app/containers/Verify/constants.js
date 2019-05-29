@@ -1,0 +1,5 @@
+export const SEND_VERIFY_SMS = 'SEND_VERIFY_SMS';
+export const VERIFY_SMS_SENT = 'VERIFY_SMS_SENT';
+export const VERIFY = 'VERIFY';
+export const VERIFY_RECEIVED = 'VERIFY_RECEIVED';
+export const VERIFY_CANCELED = 'VERIFY_CANCELED';

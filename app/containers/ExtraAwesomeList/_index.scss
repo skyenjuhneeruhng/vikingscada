@@ -1,0 +1,103 @@
+.m-datatable--error {
+  padding: 30px;
+  text-align: center;
+}
+
+.filter-wrp {
+  height: 43px;
+}
+.m-portlet {
+  .m-content {
+    padding-bottom: 20px;
+    .row {
+      .col-md-12 {
+        height: 100%;
+      }
+    }
+  }
+}
+
+.from-to {
+  .col-form-label {
+    padding-top: 0 !important;
+  }
+
+  .m-input {
+    padding-left: 0.7rem !important;
+  }
+}
+
+.filter-block {
+  label {
+    line-height: 0 !important;
+  }
+}
+
+.report-page {
+  .filter-block  {
+    label {
+      line-height: 30px !important;
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .align-items-center {
+    .m--align-right {
+      padding-top: 0;
+    }
+  }
+
+  .m-portlet-pb {
+    .m--margin-top-30 {
+      margin-top: 0px!important;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .m-datatable--error {
+    padding: 30px 0;
+    text-align: center;
+  }
+  .m-portlet.m-portlet--tabs .m-portlet__head .m-portlet__head-tools,
+  .m-portlet.m-portlet--tabs .m-portlet__head .m-portlet__head-caption {
+    display: table-cell; 
+  }
+}
+@media (max-width: 480px) {
+  .edit-form-bottom {
+    .button-signup {
+      margin-right: 0px !important;
+    }
+    button {
+      width: 100% !important;
+      margin-bottom: 25px !important;
+      max-width: 250px !important;
+      margin-right: 0px !important;
+
+      &.edit-profile-save-btn {
+        margin-right: 0px !important;
+      }
+    }
+  }
+  .edit-company {
+    .nav.nav-tabs {
+      margin-right: 0;
+      width: 100%;
+      border: none;
+      .nav-item.m-tabs__item {
+        width: 100%;
+        margin: 0;
+        border-bottom: 1px solid transparent;
+
+        &.react-tabs__tab--selected {
+          color: #f7bd27;
+          border-bottom: 1px solid #f7bd27;
+        }
+      }
+
+      
+    }
+  }
+
+}

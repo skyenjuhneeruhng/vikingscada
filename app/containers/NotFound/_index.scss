@@ -1,0 +1,23 @@
+.not-found-container {
+  margin: auto;
+  white-space: nowrap;
+  font-size: 1000%;
+}
+
+.m-error-1 {
+  background-image: url('../img/bg1.jpg');
+}
+
+.m-error_container {
+  h1 {
+    font-family: Poppins !important;
+  }
+  p {
+    font-family: Poppins !important;
+  }
+  .m-link {
+    &:hover {
+      color: #898b96 !important;
+    }
+  }
+}

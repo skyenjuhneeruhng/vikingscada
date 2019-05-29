@@ -1,0 +1,23 @@
+@import "./SwitchButton/_index.scss";
+
+.recharts-responsive-container {
+  float: left;
+}
+
+.map-container {
+  width: calc(100% + 40px);
+  margin-left: -20px;
+}
+
+a[rel="noopener"], .gmnoprint {
+  display: none !important;
+}
+
+.widget-preloader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
+  margin-top: -50px;
+  margin-left: -40px;
+}

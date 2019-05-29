@@ -1,0 +1,174 @@
+.user-profile {
+  .m-nav__link-badge {
+    span {
+      font-family: Poppins;
+      color:  #ffffff;
+      font-size: 14px;
+      font-weight: 400;
+      text-align: center;
+    }
+  }
+  .m-nav__item {
+    a {
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: 400;
+      .m-badge--warning {
+        background-color: #f78c0f;
+      }
+      &.active {
+        color: #f7bd27;
+        i {
+          color: #f7bd27 !important;
+        }
+        .m-nav__link-text {
+          color: #f7bd27 !important;
+        }
+      }
+    }
+    &:hover {
+      a {
+        background: transparent !important;
+      }
+    }
+    .m-menu__submenu {
+      padding-left: 43px;
+      margin-top: -9px;
+      .m-menu__item {
+        list-style: disc;
+        color: #6f727d;
+        &:hover {
+          color: #f7bd27;
+        }
+        a {
+          color: #6f727d;
+          font-weight: 400;
+
+          i {
+            color: #f7bd27;
+          }
+
+          &:hover {
+            color: #f7bd27;
+            text-decoration: none;
+            i {
+              color: #f7bd27;
+            }
+            .m-nav__link-text {
+              color: #f7bd27;
+            }
+          }
+        }
+      }
+    }
+  }
+  .m-card-profile {
+    .m-card-profile__details {
+      .m-card-profile__name {
+        font-family: Poppins;
+      }
+      .m-card-profile__email {
+        font-family: Poppins;
+        font-weight: 300;
+      }
+    }
+  }
+  .nav-tabs .nav-link {
+    border: none;
+  }
+  .m-datatable__table {
+    overflow-x: auto !important;
+
+    .m-datatable__row {
+      left: 0px;
+      &:nth-child(even) {
+        background-color: #f5f6f9;
+      }
+      th {
+        &:nth-child(1) {
+          padding-left: 30px !important;
+        }
+      }
+      td {
+        &:nth-child(1) {
+          padding-left: 30px !important;
+        }
+      }
+    }
+    thead {
+      .m-datatable__cell {
+        font-family: Poppins;
+        &-name {
+          width: 180px;
+        }
+        &-email {
+          width: 180px;
+        }
+        &-company {
+          width: 170px;
+        }
+        &-date {
+          width: 80px;
+        }
+        &-status {
+          width: 90px;
+        }
+        &-actions {
+          width: 70px;
+        }
+      }
+    }
+    tbody {
+      .m-datatable__cell {
+        font-family: Poppins;
+        &-name {
+          width: 180px;
+        }
+        &-email {
+          width: 180px;
+          color: #436ab1 !important;
+          font-weight: 300;
+        }
+        &-company {
+          width: 170px;
+        }
+        &-date {
+          width: 80px;
+          font-weight: 300;
+        }
+        &-status {
+          width: 90px;
+          overflow: visible !important;
+        }
+        &-actions {
+          width: 70px;
+        }
+      }
+    }
+
+    .m-widget4 {
+      .m-widget4__item {
+        .m-widget4__img.m-widget4__img--pic {
+          img {
+            width: 3rem;
+          }
+        }
+        .m-widget4__info {
+          .m-widget4__title {
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+
+  .m-card-profile {
+    .m-card-profile__pic {
+      .like-logo {
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+      }
+    }
+  }
+}

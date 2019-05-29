@@ -1,0 +1,69 @@
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.autocomplete-wrp {
+  position: relative;
+
+  .dropdown-menu {
+    left: 15px;
+    right: 15px;
+    top: 39px;
+    z-index: 10;
+
+    .dropdown-item {
+      cursor: pointer;
+      text-overflow: ellipsis;
+      overflow: hidden;
+
+      div {
+        span {
+          &:nth-child(1) {
+            font-weight: 600;
+            padding-right: 5px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.form-control[disabled] {
+  border-color: #f4f5f8 !important;
+  color: #6f727d !important;
+  background-color: #f4f5f8 !important;
+}
+
+.color-input {
+  display: block;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0 !important;
+  cursor: pointer;
+}
+
+.react-datepicker__input-container {
+  width: 100%;
+}
+// .dropdown-menu.show {
+//   display: none !important;
+// }
+
+// #sensor:focus + #autocomplete {
+//   display: block !important;
+// }
+
+
+@media (max-width: 1366px) {
+  .form-group {
+    label {
+      white-space: pre-wrap;
+    }
+  }
+}

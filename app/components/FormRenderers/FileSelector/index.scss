@@ -1,0 +1,57 @@
+.btnAddIcon {
+  max-width: 165px;
+  width: 100%;
+  height: 53px;
+  background-color: transparent;
+  color: #838EAB;
+  cursor: pointer;
+  border: 2px solid #E5EDF3;
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+
+  &.reqFile {
+    border: 2px solid #f4516c;
+  }
+
+  i {
+    font-size: 30px;
+  }
+}
+
+.plusSymbol .icon{
+  font-size: 38px;
+}
+
+.btn-label {
+  font-size: 9px;
+  position: absolute;
+  top: 62px;
+  left: 30px;
+}
+
+.btn-warns {
+  color: #5E6875;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+
+@media (max-width: 1024px) {
+  .btnAddIcon {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .btnAddIcon {
+    margin: 0;
+  }
+}

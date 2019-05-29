@@ -1,0 +1,34 @@
+.terms {
+  flex: 1 0 auto;
+  .m-subheader__title  {
+    font-family: Poppins;
+    font-size: 22px;
+  }
+  .m-portlet .m-portlet__head {
+    font-family: Poppins;
+    color: #575962;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .m-portlet__body {
+    font-family: Poppins;
+    color: #575962;
+    font-weight: 400;
+    font-size: 1rem;
+
+    p {
+      line-height: 1.5;
+      text-indent: 2rem;
+    }
+    ul {
+      li {
+        line-height: 1.5;
+      }
+    }
+
+    .text-center {
+      text-align: center;
+    }
+  }
+
+}

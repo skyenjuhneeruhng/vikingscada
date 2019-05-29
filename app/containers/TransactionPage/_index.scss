@@ -1,0 +1,22 @@
+.invoice {
+  font-family: Poppins;
+  .m-invoice__head {
+    background-image: url(../img/signin_img1.png);
+    background-position: 100% 7%;
+  }
+
+  .m-invoice__desc {
+    span {
+      color: #f2f3f8;
+    }
+  }
+
+  .m-invoice__text {
+    color: #f2f3f8 !important;
+  }
+
+  .m-invoice__items {
+    border-top: 1px solid #f2f3f8 !important;
+  }
+  
+}

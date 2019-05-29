@@ -1,0 +1,609 @@
+.edit-company {
+
+  .m-portlet__head {
+    border-bottom: none;
+  }
+  .nav-item.m-tabs__item {
+    padding: 12px 0;
+    font-size: 1.1rem;
+    border-bottom: 1px solid transparent; 
+  }
+  .m-portlet__body {
+    padding-top: 0;
+    padding-bottom: 20px;
+    min-height: 400px;
+  }
+
+  .nav-item {
+    &.m-tabs__item {
+      cursor: pointer;
+      color: #7b7e8a;
+      &.react-tabs__tab--selected {
+        color: #f7bd27;
+        border-bottom: 1px solid #f7bd27;
+      }
+      &:hover {
+        color: #f7bd27;
+        border-bottom: 1px solid #f7bd27;
+      }
+    }
+  }
+
+  .form-header {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: Roboto;
+    color: #575962;
+    padding: 2rem 0 1rem;
+  }
+
+  .m-login__form-action {
+    border-top: 1px solid #dee2e6;
+    padding-top: 20px;
+    margin-top: 100px;
+  }
+
+  .edit-company-form {
+    .col-md-6 {
+      &:nth-child(1) {
+        padding-right: 5%;
+      }
+      &:nth-child(2) {
+        padding-left: 5%;
+      }
+    }
+
+    input {
+      height: 37px;
+      line-height: 37px;
+    }
+  }
+
+  .button-signup {
+    margin-right: 20px !important;
+  }
+
+  .btn.btn-outline-warning {
+    height: 30px;
+    line-height: 28px;
+    padding: 0 17px;
+    border-color: #72818f !important;
+    color:  #72818f !important;
+    font-family: Poppins;
+    color:  #72818f;
+    font-size: 14px;
+    font-weight: 400;
+
+    &:hover {
+      color: #fff !important;
+      border-color: #72818f !important;
+      background-color: #72818f !important;
+    }
+    &:focus {
+      color: #fff !important;
+      border-color: #72818f !important;
+      background-color: #72818f !important;
+    }
+  }
+
+  .m-portlet--sub {
+    box-shadow: none !important;
+    .m-portlet__head {
+      padding: 0;
+    }
+    .m-portlet__body {
+      padding: 0;
+    }
+  }
+
+  .vikins-select svg {
+    top: 16px;
+  }
+
+  .like-label {
+    line-height: 37px;
+    display: inline-block;
+  }
+
+
+
+  .mailing {
+    margin-top: 20px;
+  }
+
+
+
+
+
+
+
+
+
+  .m-nav__link-badge {
+    span {
+      font-family: Poppins;
+      color:  #ffffff;
+      font-size: 14px;
+      font-weight: 400;
+      text-align: center;
+    }
+  }
+  .m-nav__item {
+    a {
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: 400;
+      .m-badge--warning {
+        background-color: #f78c0f;
+      }
+    }
+    &:hover {
+      a {
+        background: transparent !important;
+      }
+    }
+  }
+  .m-card-profile {
+    .m-card-profile__details {
+      .m-card-profile__name {
+        font-family: Poppins;
+      }
+      .m-card-profile__email {
+        font-family: Poppins;
+        font-weight: 300;
+      }
+    }
+  }
+  .nav-tabs .nav-link {
+    border: none;
+  }
+  .m-datatable__table {
+    overflow-x: auto !important;
+
+    .m-datatable__row {
+      left: 0px;
+      &:nth-child(even) {
+        background-color: #f5f6f9;
+      }
+      th {
+        &:nth-child(1) {
+          padding-left: 30px !important;
+        }
+      }
+      td {
+        &:nth-child(1) {
+          padding-left: 30px !important;
+        }
+      }
+    }
+
+    &.sites-list {
+      thead {
+        .m-datatable__cell {
+          font-family: Poppins;
+          &-name {
+            width: 180px;
+          }
+          &-location {
+            width: 180px;
+          }
+          &-manager {
+            width: 100px;
+          }
+          &-viewer {
+            width: 100px;
+          }
+          &-actions {
+            width: 95px;
+          }
+        }
+      }
+      tbody {
+        .m-datatable__cell {
+          font-family: Poppins;
+
+          &-name {
+            width: 180px;
+            color: #436ab1 !important;
+            font-weight: 300;
+            cursor: pointer;
+          }
+          &-location {
+            width: 180px;
+          }
+          &-manager {
+            width: 100px;
+          }
+          &-viewer {
+            width: 100px;
+          }
+          &-actions {
+            width: 95px;
+          }
+        }
+      }
+    }
+
+    &.dashboards-list {
+      thead {
+        .m-datatable__cell {
+          font-family: Poppins;
+          &-name {
+            width: 180px;
+          }
+          &-alerts {
+            width: 180px;
+          }
+          &-actions {
+            width: 65px;
+          }
+        }
+      }
+      tbody {
+        .m-datatable__cell {
+          font-family: Poppins;
+
+          &-name {
+            width: 180px;
+            color: #436ab1 !important;
+            font-weight: 300;
+            cursor: pointer;
+          }
+          &-alerts {
+            width: 180px;
+          }
+          &-actions {
+            width: 65px;
+          }
+        }
+      }
+    }
+
+    &.devices-list {
+      thead {
+        .m-datatable__cell {
+          font-family: Poppins;
+          &-name {
+            width: 180px;
+          }
+          &-gateway {
+            width: 180px;
+          }
+          &-number {
+            width: 180px;
+          }
+          &-actions {
+            width: 75px;
+          }
+        }
+      }
+      tbody {
+        .m-datatable__cell {
+          font-family: Poppins;
+
+          &-name {
+            width: 180px;
+            color: #436ab1 !important;
+            font-weight: 300;
+            cursor: pointer;
+          }
+          &-gateway {
+            width: 180px;
+          }
+          &-number {
+            width: 180px;
+          }
+          &-actions {
+            width: 75px;
+          }
+        }
+      }
+    }
+
+    &.sensors-list {
+      thead {
+        .m-datatable__cell {
+          font-family: Poppins;
+          &-name {
+            width: 180px;
+          }
+          &-device {
+            width: 180px;
+          }
+          &-number {
+            width: 180px;
+          }
+          &-actions {
+            width: 75px;
+          }
+        }
+      }
+      tbody {
+        .m-datatable__cell {
+          font-family: Poppins;
+
+          &-name {
+            width: 180px;
+            color: #436ab1 !important;
+            font-weight: 300;
+            cursor: pointer;
+          }
+          &-device {
+            width: 180px;
+          }
+          &-number {
+            width: 180px;
+          }
+          &-actions {
+            width: 75px;
+          }
+        }
+      }
+    }
+
+    &.gateways-list {
+      thead {
+        .m-datatable__cell {
+          font-family: Poppins;
+          &-name {
+            width: 180px;
+          }
+          &-description {
+            width: 380px;
+          }
+          &-status {
+            width: 180px;
+          }
+          &-actions {
+            width: 75px;
+          }
+        }
+      }
+      tbody {
+        .m-datatable__cell {
+          font-family: Poppins;
+
+          &-name {
+            width: 180px;
+            color: #436ab1 !important;
+            font-weight: 300;
+            cursor: pointer;
+          }
+          &-description {
+            width: 380px;
+          }
+          &-status {
+            width: 180px;
+
+            span {
+              color: #fff !important;
+            }
+          }
+          &-actions {
+            width: 75px;
+          }
+        }
+      }
+    }
+
+    &.plans-list {
+      thead {
+        .m-datatable__cell {
+          font-family: Poppins;
+          &-name {
+            width: 180px;
+          }
+          &-description {
+            width: 380px;
+          }
+          &-numbers {
+            width: 180px;
+          }
+          &-actions {
+            width: 75px;
+          }
+        }
+      }
+      tbody {
+        .m-datatable__cell {
+          font-family: Poppins;
+
+          &-name {
+            width: 180px;
+            color: #436ab1 !important;
+            font-weight: 300;
+            cursor: pointer;
+          }
+          &-description {
+            width: 380px;
+          }
+          &-numbers {
+            width: 180px;
+          }
+          &-actions {
+            width: 75px;
+          }
+        }
+      }
+    }
+
+    &.transaction-list {
+      thead {
+        .m-datatable__cell {
+          font-family: Poppins;
+          &-name {
+            width: 180px;
+          }
+          &-description {
+            width: 180px;
+          }
+          &-data {
+            width: 100px;
+          }
+          &-status {
+            width: 100px;
+          }
+          &-payment {
+            width: 100px;
+          }
+          &-acknowledge {
+            width: 120px;
+          }
+        }
+      }
+      tbody {
+        .m-datatable__cell {
+          font-family: Poppins;
+
+          &-name {
+            width: 180px;
+            color: #436ab1 !important;
+            font-weight: 300;
+            cursor: pointer;
+          }
+          &-description {
+            width: 180px;
+          }
+          &-data {
+            width: 100px;
+          }
+          &-status {
+            width: 100px;
+          }
+          &-payment {
+            width: 100px;
+          }
+          &-acknowledge {
+            width: 120px;
+            color: #436ab1 !important;
+            font-weight: 300;
+          }
+        }
+      }
+    }
+
+
+    &.members-list {
+      thead {
+        .m-datatable__cell {
+          font-family: Poppins;
+          &-name {
+            width: 200px;
+          }
+          &-email {
+            width: 200px;
+          }
+          &-sites {
+            width: 300px;
+          }
+          &-date {
+            width: 80px;
+          }
+          &-status {
+            width: 100px;
+          }
+          &-actions {
+            width: 70px;
+          }
+        }
+      }
+      tbody {
+        .m-datatable__cell {
+          font-family: Poppins;
+          &-name {
+            width: 200px;
+          }
+          &-email {
+            width: 200px;
+            color:  #436ab1 !important;
+            font-weight: 300;
+          }
+          &-sites {
+            width: 300px;
+            font-weight: 300;
+          }
+          &-date {
+            width: 80px;
+            font-weight: 300;
+          }
+          &-status {
+            width: 100px;
+          }
+          &-actions {
+            width: 70px;
+          }
+        }
+      }
+    }
+
+    .m-widget4 {
+      .m-widget4__item {
+        .m-widget4__img.m-widget4__img--pic {
+          img {
+            width: 3rem;
+          }
+        }
+        .m-widget4__info {
+          .m-widget4__title {
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+
+  .m-card-profile {
+    .m-card-profile__pic {
+      .like-logo {
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+      }
+    }
+  }
+
+  .m-form .m-form__group .col-form-label, .m-form .m-form__group .form-control-label, .m-form .m-form__group>label {
+    color: #67737e;
+    line-height: 30px;
+    text-align: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-right: 0;
+  }
+  .m-form .m-form__group {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  #update_company_submit {
+    margin-right: 20px;
+  }
+}
+
+.tabs-body {
+  min-height: inherit !important;
+  .m-portlet__head {
+    padding: 0 !important;
+  }
+  .m-portlet__body {
+    padding: 0 !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .edit-company {
+    .edit-company-form {
+
+      .col-md-6 {
+        &:nth-child(1) {
+          padding-right: 15px;
+        }
+        &:nth-child(2) {
+          padding-left: 15px;
+        }
+      }
+    }
+  }
+}

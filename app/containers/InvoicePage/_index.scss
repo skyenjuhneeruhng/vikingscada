@@ -1,0 +1,87 @@
+.invoice {
+
+  font-family: Poppins;
+
+  .m-invoice__head {
+    // background-image: url('../img/signin_img1.png');
+    // background-position: 100% 7%;
+    position: relative;
+    overflow: hidden;
+
+    .ivoice-img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: 100% 7%;
+      z-index: 1;
+    }
+
+    .m-invoice__container {
+      position: relative;
+      z-index: 10;
+    }
+  }
+
+  .m-invoice__desc {
+    span {
+      color: #f2f3f8;
+    }
+  }
+
+  .m-invoice__text {
+    color: #f2f3f8 !important;
+  }
+
+  .m-invoice__items {
+    border-top: 1px solid #f2f3f8 !important;
+  }
+
+  .invoice-custom {
+    tr {
+      th {
+        text-align: left !important;
+
+        &:last-child {
+          text-align: right !important;
+        }
+      }
+      td {
+        text-align: left !important;
+
+        &:last-child {
+          text-align: right !important;
+        }
+      }
+    }
+  }
+
+  .print-block {
+    float: right;
+    margin-right: 0 !important;
+    font-size: 1.3rem;
+    color: #898b96;
+
+    i {
+      cursor: pointer;
+      &:hover {
+        color: #f7bd27;
+      }
+    }
+  }
+
+}
+
+@media print {
+  .m-subheader {
+    display: none !important;
+  }
+  #m_header {
+    display: none !important;
+  }
+  footer {
+    display: none !important;
+  }
+}

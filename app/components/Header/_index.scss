@@ -1,0 +1,367 @@
+
+// import img
+
+div.test {
+  // background-image: url('../img/logo.png');
+  // background-image: url('../img/user.jpg');
+
+  // background-image: url('../img/chart.png');
+  // background-image: url('../img/widget.png');
+
+  // background-image: url('../img/ic_logo.png');
+
+  background-image: url('../img/signin_img1.png');
+  background-image: url('../img/signin_img2.png');
+  background-image: url('../img/indeema-logo.png');
+
+  background-image: url('../img/ic_knob.svg');
+  background-image: url('../img/ic_switch.svg');
+  background-image: url('../img/ic_Grid Integration.svg');
+  background-image: url('../img/ic_2d_graph.svg');
+  background-image: url('../img/ic_variable_value.svg');
+  background-image: url('../img/ic_stacked bar.svg');
+  background-image: url('../img/ic_slider.svg');
+  background-image: url('../img/ic_linear.svg');
+  background-image: url('../img/ic_map.svg');
+  background-image: url('../img/ic_graph.svg');
+  background-image: url('../img/ic_spectrum_display.svg');
+
+
+  background-image: url('../img/favicon.ico');
+  background-image: url('../img/icon.png');
+  background-image: url('../img/warning.png');
+  background-image: url('../img/danger.png');
+  background-image: url('../uploads/Viking SCADA Web Application Manual.pdf');
+}
+
+.m-body {
+  position: relative;
+}
+.m-wrapper {
+  height: 100%;
+  min-height: calc(100vh - 110px);
+}
+
+.m-brand.m-brand--skin-dark {
+  background: #102c42;;
+}
+
+.m-brand {
+  .m-brand__logo {
+    .m-brand__logo-wrapper {
+      margin-left: 13px;
+      transition: 0.3s ease-out margin-left;
+    }
+  }
+}
+
+.m-topbar {
+  .m-topbar__nav.m-nav {
+    & >.m-nav__item {
+      & >.m-nav__link {
+        .m-topbar__userpic {
+          padding-left: 9px;
+          img {
+            max-width: 40px!important;
+            border-radius: 50%;
+            border-width: 1px;
+            border-color: #72818f;
+            border-style: solid;
+          }
+          .like-logo {
+            max-width: 40px!important;
+            max-height: 40px!important;
+            line-height: 40px;
+            border-width: 1px;
+            border-color: #72818f;
+            border-style: solid;
+          }
+        }
+        .m-topbar__company-name {
+          color: #72818f;
+          border: none;
+          padding-right: 35px;
+          border-radius: 0;
+          position: relative;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          max-width: 400px;
+          &:after {
+            content: "";
+            width: 1px;
+            background-color: #72818f;
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translate(0, -50%);
+            height: 42px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.m-nav.m-nav--inline {
+  & >.m-nav__item {
+    & >.m-nav__link {
+      padding: 14px 0;
+    }
+  }
+}
+
+#m_header_menu {
+  .m-menu__nav {
+    & > .m-menu__item {
+      padding: 0 12px;
+
+      &.active {
+        border-bottom: 2px solid #102c42;
+
+        & > .m-menu__link  {
+          .m-menu__link-text {
+            color:  #102c42;
+          }
+        }
+      }
+
+      & > .m-menu__link  {
+        pointer-events: none;
+        .m-menu__link-text {
+          color: #72818f;
+
+          &:hover {
+            color:  #102c42;
+          }
+        }
+      }
+
+    }
+  }
+}
+
+
+header {
+  .m-dropdown .m-dropdown__wrapper .m-dropdown__body {
+    padding: 0;
+  }
+  .m-topbar .m-topbar__nav.m-nav>.m-nav__item.m-topbar__user-profile.m-topbar__user-profile--img.m-dropdown--arrow .m-dropdown__arrow {
+    color: #102c42;
+  }
+
+  .m-dropdown.m-dropdown--header-bg-fill .m-dropdown__header {
+    background-color: #102c42;
+  }
+  .m-nav.m-nav--hover-bg .m-nav__separator {
+    margin: 10px 30px;
+  }
+  .m-portlet__body-separator {
+    height: 0;
+    overflow: hidden;
+    margin: 20px 0;
+    border-bottom: 1px solid #f4f5f8;
+  }
+  .m-nav.m-nav--hover-bg .m-nav__item>.m-nav__link {
+    padding: 12px 20px;
+  }
+  .m-widget1.m-widget1--paddingless {
+    padding: 0 20px 20px;
+  }
+
+  .m-card-user {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .m-card-user__pic {
+    .like-logo {
+      width: 70px;
+      height: 70px;
+      line-height: 70px;
+    }
+  }
+  .m-subheader__daterange-label {
+    margin-right: 15px;
+    position: relative;
+    top: 2px;
+  }
+}
+
+.m-brand__logo-wrapper {
+  width: 165px;
+  height: 53px;
+  text-align: center;
+  display: inline-block;
+
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  svg {
+    width: 165px;
+  }
+  .cls-1 {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 4px;
+  }
+
+  .cls-1, .cls-2 {
+    fill-rule: evenodd;
+  }
+
+  .cls-2 {
+    fill: #fff;
+  }
+}
+
+.purchase-btn {
+  &:after {
+    content: 'Purchase'
+  }
+}
+
+.stream-data {
+  max-width: 100px;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  position: relative;
+  top: 5px;
+}
+
+@media (max-width: 1024px) {
+  .m-brand__logo {
+    text-align: left !important;
+    .m-brand__logo-wrapper {
+      margin-left: 0 !important;
+    }
+  }
+
+  .m-body {
+    padding-bottom: 50px;
+  }
+
+  .m-nav.m-nav--inline {
+    & >.m-nav__item {
+      & >.m-nav__link {
+        padding: 0;
+      }
+    }
+  }
+  .m-aside-header-menu-mobile {
+    top: 60px;
+    &.m-aside-header-menu-mobile--skin-dark {
+      background-color: #fff;
+    }
+
+    .m-menu__nav {
+      list-style: none;
+      padding: 0 0 30px 0;
+    }
+  }
+  #m_header_menu .m-menu__nav {
+    & > .m-menu__item {
+      &:hover {
+        background-color: #fff;
+      }
+      &.active {
+        background-color: #fff;
+        margin: 0 8px;
+      }
+    }
+  }
+
+  .m-topbar {
+    .m-topbar__nav.m-nav {
+      & >.m-nav__item {
+        & >.m-nav__link {
+          .m-topbar__userpic {
+            img {
+              max-width: 34px!important;
+            }
+            .like-logo {
+              max-width: 34px!important;
+              max-height: 34px!important;
+              line-height: 34px;
+            }
+          }
+          .m-topbar__company-name {
+            &:after {
+              height: 32px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .m-subheader__breadcrumbs {
+    border-left: none !important;
+    padding-left: 0 !important;
+  }
+
+  .m-brand__logo-wrapper {
+    width: 100px;
+    height: 32px;
+    svg {
+      width: 100px;
+    }
+  }
+  .m-topbar .m-topbar__nav.m-nav {
+    margin: 0 15px 0 0;
+  }
+  .m-topbar .m-topbar__nav.m-nav > .m-nav__item > .m-nav__link .m-topbar__company-name {
+    padding-right: 15px;
+    padding-left: 0;
+  }
+
+  header .m-dropdown .m-dropdown__wrapper {
+    .m-dropdown__inner {
+      height: calc(100vh - 130px);
+      max-height: 400px;
+    }
+    .m-dropdown__body {
+      padding: 0;
+      height: calc(100% - 130px);
+      overflow: auto;
+    }
+  }
+
+  .m-body .m-content {
+    padding: 15px !important;
+  } 
+
+  .m-portlet.m-portlet--tabs .m-portlet__head {
+    padding-bottom: 0 !important;
+  }
+
+  .purchase-btn {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+    &:after {
+      content: 'Pay'
+    }
+  }
+
+  .pluss-button {
+    margin: 60px 0px 0 !important;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .stream-data {
+    width: 60px;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    
+  }
+}

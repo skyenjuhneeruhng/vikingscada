@@ -1,0 +1,143 @@
+.form-group {
+  &.row {
+    padding-bottom: 0;
+  }
+  label {
+    width: 100%;
+    font-family: Poppins;
+    color:  #67737e;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+
+  .inpt {
+    outline: none;
+
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+
+    &-error {
+      border-bottom: 1px solid #f00 !important;
+    }
+
+    &-primary {
+      border-radius: 4px;
+      border-width: 1px;
+      border-color:  #e0e8f1;
+      border-style: solid;
+      background-color:  #ffffff;
+      height: 30px;
+      line-height: 30px;
+      margin-bottom: 10px;
+      padding: 0;
+      padding-left: 11px;
+      font-family: LatoLight;
+      color:  #8d99a4;
+      font-size: 14px;
+
+      &error {
+        border-bottom: 1px solid #f00 !important;
+      }
+
+      &:focus {
+        border-color: #fcbd20;
+      }
+    }
+    &-secondary {
+      font-family: Roboto;
+      color:  #000000;
+      font-size: 14px;
+      font-weight: 400;
+      border-radius: 2px;
+      border-width: 1px;
+      border-color:  #e0e8f1;
+      border-style: solid;
+      background-color:  #ffffff;
+      height: 35px;
+      margin-top: 5px;
+      padding-left: 14px;
+
+      &error {
+        border-color: #f00 !important;
+      }
+
+      &:focus {
+        border-color: #fcbd20;
+        color:  #000000;
+        outline: none;
+        box-shadow: none;
+      }
+    }
+
+    &-searsh {
+      height: 37px;
+      font-family: Roboto;
+      &:focus {
+        border-color: #fcbd20;
+        color:  #000000;
+        outline: none;
+        box-shadow: none;
+      }
+    }
+  }
+
+  /* For Firefox */
+  input[type='number'] {
+    -moz-appearance:textfield;
+  }
+  /* Webkit browsers like Safari and Chrome */
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+.m-input-icon__icon {
+  position: absolute;
+  height: 100%;
+  display: inline-block;
+  text-align: center;
+  top: 0;
+  width: 3.2rem;
+  
+  &--left {
+    left: 0;
+  }
+
+  span {
+    display: table;
+    height: 100%;
+    width: 100%;
+
+    i {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      line-height: 0;
+      font-size: 1.4em;
+      color: #a4a2bb;
+    }
+  }
+}
+
+.m-form .m-form__help {
+  padding-top: 0.2rem !important;
+}
+
+.m-form .form-control-feedback {
+  display: inline-block;
+  font-weight: 300;
+}
+
+
+label[for="accept"] {
+  min-height: 45px;
+}

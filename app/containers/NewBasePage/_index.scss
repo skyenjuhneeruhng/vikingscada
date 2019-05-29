@@ -1,0 +1,24 @@
+.change-password-settings {
+  float: right;
+  padding-top: 1.5em;
+
+  button {
+    width: 200px;
+    margin-right: 15px;
+  }
+}
+
+.edit-profile-save-btn {
+  margin-right: 20px !important;
+}
+.new-company {
+  .form-header {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: Roboto;
+    color: #575962;
+    padding: 2rem 0 1rem;
+  }
+}

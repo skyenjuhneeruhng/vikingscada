@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`>>>ALERT --- Snapshot +++capturing Snapshot of Alert 1`] = `
+<div
+  className="alert alert-danger m-alert m-alert--icon m-alert--air m-alert--square m--margin-bottom-30"
+  role="alert"
+>
+  <div
+    className="m-alert__icon"
+  >
+    <i
+      className="flaticon-exclamation-1"
+    />
+  </div>
+  <div
+    className="m-alert__text"
+  >
+    You are rejected. Please, contact support
+  </div>
+</div>
+`;

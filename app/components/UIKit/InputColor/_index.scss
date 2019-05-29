@@ -1,0 +1,51 @@
+
+
+.inpt {
+  &-color {
+    border-radius: 2px;
+    border-width: 1px;
+    border-color:  #e0e8f1;
+    border-style: solid;
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    background-color: red;
+    -webkit-appearance: none;
+    border: none;
+    cursor: pointer;
+    
+    &::-webkit-color-swatch-wrapper {
+      padding: 0;
+    }
+
+    &::-webkit-color-swatch {
+      border: none;
+    }
+  }
+}
+
+
+.color-block-wrp {
+  width: 35px;
+  height: 35px;
+  overflow: hidden;
+  
+  .color-block {
+    border-radius: 2px;
+    border: 1px solid #e0e8f1;
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    padding: 0;
+    -webkit-appearance: none;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+.color-popup {
+  width: 220px;
+}
+.color-modal .modal-dialog {
+  max-width: 220px !important; 
+}    

@@ -1,0 +1,180 @@
+.sign-up {
+  .m-login.m-login--1 {
+    .m-login__aside {
+      width: calc(100% - 700px);
+      padding: 2rem 13px;
+    }
+    .m-login__wrapper {
+      padding-top: 51px;
+      .m-login__head {
+        .m-login__title {
+          font-family: Poppins;
+          color:  #102c42;
+          font-size: 30px;
+          font-weight: 500;
+          line-height: 40px;
+          text-align: center;
+        }
+      }
+      .m-checkbox {
+        font-family: Poppins;
+        color:  #72818f;
+        font-size: 12px;
+        font-weight: 400;
+      }
+
+      .m-link {
+        font-family: Poppins;
+        color:  #72818f;
+        font-size: 12px;
+        font-weight: 400;
+
+        &:hover {
+          &:after {
+            border-bottom: 1px solid #72818f;
+            opacity: .3;
+          }
+        }
+      }
+      .m-login__form-sub {
+        margin-top: 1rem;
+      }
+    }
+
+    .signin-google {
+      margin-bottom: 5rem;
+      .m-login__account-msg {
+        font-size: 15px;
+        color: #8d99a4;
+      }
+      .m_login_sign-google {
+        font-family: Poppins;
+        color:  #72818f;
+        font-size: 15px;
+        font-weight: 400;
+  
+        &:hover {
+          &:after {
+            border-bottom: 1px solid #72818f;
+            opacity: .3;
+          }
+        }
+      }
+      .m-login__account {
+        margin-bottom: 5rem;
+      }
+    }
+    .m-login__account-msg {
+      font-size: 15px;
+    }
+    #m_login_signup {
+      font-family: Poppins;
+      color:  #fcbd20;
+      font-size: 15px;
+      font-weight: 400;
+
+      &:hover {
+        &:after {
+          border-bottom: 1px solid #fcbd20;
+          opacity: .3;
+        }
+      }
+    }
+  }
+
+  .m-login__content {
+    background-image: url('../img/signin_img2.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: cover;
+    // background-attachment: inherit !important;
+  }
+  .m-login__signup {
+    display: block !important;
+  }
+  .col-form-label {
+    text-align: left!important;
+  }
+  .form-header {
+    font-family: LatoBold;
+    color:  #575962;
+    font-size: 18px;
+    padding-left: 30px;
+    margin-top: 2rem;
+  }
+  textarea {
+    height: 290px;
+    font-family: LatoRegular;
+    color: #575962;
+  }
+  .checkbox-wrp {
+    padding-top: 0 !important;
+  }
+  label {
+    overflow: hidden !important;
+    display: inline-block;
+  }
+  .m-login__form-action {
+    margin: 3rem 30px 5rem;
+    border-top: 1px solid #ebedf2;
+    padding-top: 5rem;
+  }
+}
+
+
+
+@media (max-width: 1440px) {
+  .sign-up {
+    .m-login.m-login--1 {
+      .m-login__aside {
+        padding: 2rem 13px;
+        width: calc(100% - 500px);
+      }
+    }
+  }
+}
+@media (max-width: 1200px) and (min-width: 1025px) {
+  .m-login.m-login--1 {
+    .m-login__aside {
+      padding: 2rem 13px;
+      width: calc(100% - 500px);
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .m-login__content {
+    display: none !important;
+  }
+  .sign-up {
+    .m-login.m-login--1 {
+      .m-login__aside {
+        width: 100%;
+      }
+    }
+  }
+  .sign-up .m-login__form-action {
+    text-align: center !important;
+  }
+}
+@media (max-width: 768px) {
+  .m-login.m-login--1 {
+    .m-login__aside {
+      width: 100%;
+      padding: 2rem 15px;
+    }
+    .m-login__wrapper {
+      padding: 35% 0rem 2rem 0rem;
+      max-width: 422px;
+      margin: 0 auto;
+    }
+  }
+  .sign-up {
+    .m-form__group {
+      padding-right: 0 !important;
+      padding-left: 0 !important;
+    }
+    .form-header {
+      padding-left: 0;
+    }
+  }
+}

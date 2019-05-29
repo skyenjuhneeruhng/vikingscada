@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`>>>Footer --- Renders Footer message to user +++capturing Snapshot of Footer 1`] = `
+<footer
+  className="m-grid__item main-footer"
+>
+  <div
+    className="m-container m-container--fluid m-container--full-height m-page__container"
+  >
+    <div
+      className="m-stack m-stack--flex-tablet-and-mobile m-stack--ver m-stack--desktop"
+    >
+      <div
+        className="m-stack__item m-stack__item--left m-stack__item--middle m-stack__item--last"
+      >
+        <span
+          className="m-footer__copyright"
+        >
+          © 2018 Viking SCADA 
+        </span>
+      </div>
+      <div
+        className="m-stack__item m-stack__item--right m-stack__item--middle m-stack__item--first"
+      >
+        <span
+          className="m-footer__copyright"
+        >
+          <span
+            className="m-footer__copyright"
+          >
+            Powered by
+            <a
+              className="m-link"
+              href="https://indeema.com/"
+              target="blank"
+            >
+              <img
+                alt=""
+                src="../img/indeema-logo.png"
+              />
+            </a>
+          </span>
+        </span>
+      </div>
+    </div>
+  </div>
+</footer>
+`;

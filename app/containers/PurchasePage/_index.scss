@@ -1,0 +1,113 @@
+.purchare {
+
+  ._loading-overlay {
+    z-index: 100;
+  }
+
+  #react-tabs-2 {
+    margin-left: 0 !important;
+  }
+
+  font-family: Poppins;
+
+  .m-pricing-table-2 {
+    .m-pricing-table-2__head {
+      text-align: center;
+      background-image: url('../img/signin_img2.png');
+      background-size: cover;
+      background-position: bottom right;
+      padding: 8.57rem 0 25rem 0;
+    }
+  }
+
+  .react-tabs__tab--selected {
+    background: #f7bd27 !important;
+    color: #fff !important;
+  }
+
+  .btn-group.m-btn-group--air {
+    box-shadow: none !important;
+
+    .nav-tabs {
+      border-bottom: none !important;
+    }
+  }
+
+  .m--font-info {
+    color: #102c42!important;
+  }
+
+  .m-pricing-table-2__hexagon {
+    &.bronze {
+      background: #f7ddc2 !important;
+      &:before {
+        border-bottom: 5.71rem solid #f7ddc2 !important;
+      }
+
+      &:after {
+        border-top: 5.71rem solid #f7ddc2 !important;
+      }
+    }
+
+    &.silver {
+      background: #d6d6d6 !important;
+      &:before {
+        border-bottom: 5.71rem solid #d6d6d6 !important;
+      }
+
+      &:after {
+        border-top: 5.71rem solid #d6d6d6 !important;
+      }
+    }
+
+    &.gold {
+      background: #fbe89e !important;
+      &:before {
+        border-bottom: 5.71rem solid #fbe89e !important;
+      }
+
+      &:after {
+        border-top: 5.71rem solid #fbe89e !important;
+      }
+    }
+  }
+
+  .m-pricing-table-2__subtitle {
+    text-transform: capitalize;
+  }
+  .m--font-success {
+    height: 30px;
+  }
+
+  .m-pricing-table-2__features {
+    margin-bottom: 0 !important;
+    min-height: 150px;
+    overflow: hidden;
+  }
+
+  .m-pricing-table-2__subtitle {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .unsubscribe {
+    line-height: 33.5px !important;
+    width: initial !important;
+    height: 33.5px !important;
+    font-size: 1rem !important;
+    padding: 0 0.75rem !important;
+  }
+
+  .m-pricing-table-2__label {
+    position: relative !important;
+    top: -12px !important;
+    left: -5px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .m-pricing-table-2 .m-pricing-table-2__head .btn-group .btn {
+    font-size: 0.8rem !important;
+  }
+}

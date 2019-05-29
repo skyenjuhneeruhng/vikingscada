@@ -1,0 +1,218 @@
+@import "~bootstrap/scss/bootstrap.scss";
+@import "vendors.bundle.css";
+@import "style.bundle.css";
+@import "./fonts.scss";
+@import "../../node_modules/react-grid-layout/css/styles.css";
+@import "../../node_modules/react-resizable/css/styles.css";
+@import "../../node_modules/react-datepicker/dist/react-datepicker.css";
+
+
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+@import "../../app/components/Header/_index.scss";
+@import "../../app/components/Sidebar/_index.scss";
+@import "../../app/components/PropertySidebar/_index.scss";
+@import "../../app/components/WidgetMenu/_index.scss";
+@import "../../app/components/Widget/_index.scss";
+@import "../../app/components/Breadcrumbs/_index.scss";
+@import "../../app/components/Avatar/_index.scss";
+@import "../../app/components/Pagination/_index.scss";
+@import "../../app/components/NumberPerPage/_index.scss";
+
+
+@import "../../app/components/UIKit/Input/_index.scss";
+@import "../../app/components/UIKit/InputRow/_index.scss";
+@import "../../app/components/UIKit/InputColor/_index.scss";
+@import "../../app/components/UIKit/InputAddress/_index.scss";
+@import "../../app/components/UIKit/Select/_index.scss";
+@import "../../app/components/UIKit/AddButton/_index.scss";
+@import "../../app/components/UIKit/Button/_index.scss";
+@import "../../app/components/UIKit/Switch/_index.scss";
+@import "../../app/components/UIKit/DropdownButton/_index.scss";
+@import "../../app/components/UIKit/Textarea/_index.scss";
+@import "../../app/components/UIKit/StatusMessage/_index.scss";
+@import "../../app/components/Modal/_index.scss";
+@import "../../app/components/Footer/_index.scss";
+@import "../../app/components/Alert/_index.scss";
+@import "../../app/components/charts/_index.scss";
+
+@import "../../app/containers/DashboardsPage/_index.scss";
+@import "../../app/containers/ProfilePage/_index.scss";
+@import "../../app/containers/EditProfilePage/_index.scss";
+@import "../../app/containers/CompaniesPage/_index.scss";
+@import "../../app/containers/EditCompanyPage/_index.scss";
+@import "../../app/containers/NewBasePage/_index.scss";
+@import "../../app/containers/TermsAndConditionsPage/_index.scss";
+@import "../../app/containers/EditSitePage/_index.scss";
+@import "../../app/containers/DevicesList/_index.scss";
+@import "../../app/containers/SensorsList/_index.scss";
+@import "../../app/containers/ExtraAwesomeList/_index.scss";
+@import "../../app/containers/AwesomeList/_index.scss";
+@import "../../app/containers/PurchasePage/_index.scss";
+@import "../../app/containers/InvoicePage/_index.scss";
+@import "../../app/containers/TransactionPage/_index.scss";
+@import "../../app/containers/PaymentSuccessPage/_index.scss";
+@import "../../app/containers/PaymentCancelPage/_index.scss";
+@import "../../app/containers/GatewayList/_index.scss";
+@import "../../app/containers/NotificationsList/_index.scss";
+
+@import "../../app/containers/ConfirmMessagesPage/_index.scss";
+@import "../../app/containers/ReportsPage/_index.scss";
+
+@import "../../app/containers/SignIn/_index.scss";
+@import "../../app/containers/SignUp/_index.scss";
+
+@import "../../app/containers/NotFound/_index.scss";
+
+@import "../../app/components/FormRenderers/_index.scss";
+
+body {
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+}
+
+.m-portlet-pb {
+  margin-bottom: 0!important;
+  height: inherit!important;
+  .m-portlet__body {
+    height: inherit!important;
+    .m-datatable__table {
+      // padding-bottom: 100px;
+    }
+  }
+}
+
+.c-dropdown .dropdown-menu {
+  top: calc(100% + 5px);
+  transform: initial;
+}
+
+.full-list {
+  .m-datatable__row {
+    &:nth-last-child(1) {
+      .c-dropdown .dropdown-menu {
+        top: auto;
+        bottom: calc(100% + 5px);
+        transform: initial;
+      }
+    }
+    &:nth-last-child(2) {
+      .c-dropdown .dropdown-menu {
+        top: auto;
+        bottom: calc(100% + 5px);
+        transform: initial;
+      }
+    }
+  }
+}
+
+.m-datatable.m-datatable--default>.m-datatable__pager {
+  margin-top: 20px !important;
+}
+
+.m-portlet__head-text {
+  text-transform: capitalize;
+  max-width: 500px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.m-subheader__title {
+  min-width: 220px;
+  text-transform: capitalize;
+}
+// th.sort {
+//   cursor: pointer !important;
+// }
+// th {
+//   text-align: center;
+//   span {
+//     text-align: center;
+//     // display: inline-block !important;
+//   }
+// }
+
+.m-grid__item.m-wrapper {
+  margin-bottom: 0 !important;
+}
+
+.m-portlet__nav-link.m-btn--hover {
+  &-warning {
+    &:active {
+      background-color: transparent !important;
+      color: #898b96 !important;
+      border-color: transparent !important;
+      &:hover {
+        border-color: #ffb822!important;
+        color: #111!important;
+        background-color: #ffb822!important;
+      }
+    }
+    &:focus {
+      background-color: transparent !important;
+      color: #898b96 !important;
+      border-color: transparent !important;
+
+      &:hover {
+        border-color: #ffb822!important;
+        color: #111!important;
+        background-color: #ffb822!important;
+
+        i {
+          color: #111 !important;
+        }
+      }
+
+      i {
+        color: #898b96 !important;
+      }
+    }
+  }
+  &-danger {
+    &:active {
+      background-color: transparent !important;
+      color: #898b96 !important;
+      border-color: transparent !important;
+
+      &:hover {
+        border-color: #f4516c!important;
+        color: #fff!important;
+        background-color: #f4516c!important;
+      }
+    }
+    &:focus {
+      background-color: transparent !important;
+      color: #898b96 !important;
+      border-color: transparent !important;
+
+      &:hover {
+        border-color: #f4516c!important;
+        color: #fff!important;
+        background-color: #f4516c!important;
+
+        i {
+          color: #fff !important;
+        }
+      }
+
+      i {
+        color: #898b96 !important;
+      }
+    }
+  }
+}
+
+
+.toast {
+  &-success {
+    background-color: #34bfa3 !important;
+  }
+  &-warning {
+    background-color: #ffb822 !important;
+  }
+  &-error {
+    background-color: #f4516c !important;
+  }
+} 

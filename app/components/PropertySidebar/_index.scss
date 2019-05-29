@@ -1,0 +1,227 @@
+#m_quick_sidebar {
+  width: 360px !important;
+  box-shadow: 0px 10px 20px 0px rgba(10, 8, 36, 0.1);
+  padding: 0;
+  z-index: 1010;
+
+  .widget-title {
+    font-family: Roboto;
+    color:  #67737e;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 70px;
+    background-color: #fafcfe;
+
+    .widget-title-header {
+      padding: 0 30px;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+      width: calc(100% - 20px);
+    }
+  }
+  .m-quick-sidebar__content {
+    padding: 20px 30px 30px 30px;
+    position: relative;
+    padding-bottom: 100px;
+    min-height: calc(100% - 70px);
+  }
+
+  .m-quick-sidebar__close {
+    top: 0;
+    right: 20px;
+    &:hover {
+      text-decoration: none;
+      color: #716aca;
+    }
+  }
+
+  .range-wrp {
+    span {
+      width: 100%;
+      font-family: Poppins;
+      color: #67737e;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 21px;
+      margin-bottom: 0;
+    }
+    label {
+      line-height: 0 !important;
+    }
+
+    label[for="lat"] {
+      line-height: 30px !important
+    }
+    
+    label[for="long"] {
+      line-height: 30px !important
+    }   
+
+    label[for="zoom"] {
+      line-height: 30px !important
+    } 
+    
+    label[for="long"]::after {
+      top: 26px !important
+    } 
+    .range-inpts {
+      display: flex;
+
+      &.max-value {
+        .m-form__group {
+          &:nth-child(2) {
+            &:after {
+              content: "";
+            }
+          }
+        }
+      }
+
+      .m-form__group {
+        flex: 1;
+        padding-right: 8px;
+
+        &:nth-child(2) {
+          padding-right: 0;
+          padding-left: 8px;
+          position: relative;
+
+          &:after {
+            content: "/";
+            position: absolute;
+            left: -3px;
+            top: 6px;
+            line-height: 35px;
+            font-family: Roboto;
+            color:  #e0e8f1;
+            font-size: 14px;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+  .max-wrp {
+    display: flex;
+    margin-top: 5px;
+    span {
+      width: 99px;
+      font-family: Poppins;
+      color: #67737e;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 35px;
+      margin-bottom: 0;
+      display: inline-block;
+      overflow: hidden;
+    }
+    .max-value {
+      flex: 1;
+      padding-right: 8px;
+      position: relative;
+
+      &:nth-child(2) {
+        padding-right: 0;
+        padding-left: 8px;
+        .m-form__group {
+          &:nth-child(2) {
+            right: 0;
+          }
+        }
+      }
+
+      .m-form__group {
+        &:nth-child(2) {
+          position: absolute;
+          top: 26px;
+          right: 8px;
+          z-index: 1
+        }
+      }
+    }
+  }
+
+  .sensor-item {
+    margin-bottom: 3px;
+
+    .close-switch-sensor {
+      float: right;
+      cursor: pointer;
+
+      &:before {
+        color: #cfcedb;
+      }
+      &:hover {
+        text-decoration: none;
+        color: #c50223;
+      }
+    }
+  }
+
+  footer {
+    background-color:  #fafcfe;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    text-align: right;
+    padding-right: 30px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  .has-danger {
+    .form-control-feedback {
+      width: 100%;
+      white-space: pre-wrap;
+    }
+  }
+
+  .autocomplete-wrp {
+    .dropdown-menu {
+      left: 0;
+      top: 32px;
+      width: 100%;
+    }
+  }
+
+  .m-form .m-form__group {
+    padding-top: 0;
+  }
+
+  .max-wrp {
+    .form-control-feedback {
+      max-width: 142px;
+      white-space: pre-wrap;
+      line-height: 1.2;
+    }
+  }
+
+  .range-wrp {
+    .form-control-feedback {
+      max-width: 142px;
+      white-space: pre-wrap;
+      line-height: 1.2;
+    }
+  }
+}
+
+label.sidebar-switch {
+  width: 60px!important;
+}
+
+.longitude .m-form__group:nth-child(2):after {
+  top: 36px !important;
+}
+
+@media (max-width: 768px) {
+  #m_quick_sidebar {
+    width: 100% !important;
+    max-width: 300px;
+
+    .max-wrp span {
+      width: 69px;
+    }
+  }
+}

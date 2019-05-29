@@ -1,0 +1,36 @@
+
+
+
+.txtar {
+  &-primary {
+    border-radius: 2px;
+    border-width: 1px;
+    border-color:  #e0e8f1;
+    border-style: solid;
+    background-color:  #ffffff;
+    margin-bottom: 10px;
+    padding: 0;
+    padding-left: 11px;
+    padding-right: 11px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    resize: none;
+    height: 72px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    color: #000;
+    padding-top: 8px;
+    
+
+    &:focus {
+      border-color: #fcbd20;
+      color: #000;
+      outline: none;
+      box-shadow: none;
+    }
+    &[readonly] {
+      background-color: #fff;
+    }
+  }
+}

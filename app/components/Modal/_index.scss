@@ -1,0 +1,28 @@
+.fade.in {
+  opacity: 1!important;
+}
+.modal-backdrop.in {
+  filter: alpha(opacity=50) !important;
+  opacity: .5 !important;
+}
+
+.modal-dialog {
+  max-width: 600px !important;
+  width: 90% !important;
+  margin: 30px auto !important;
+}
+
+.modal.fade .modal-dialog {
+  transform: translate(0, 0%)!important;
+}
+
+.modal-footer {
+  .btn-danger {
+    box-shadow: none!important;
+    text-transform: capitalize;
+
+    &:hover {
+      box-shadow: none!important;
+    }
+  }
+}

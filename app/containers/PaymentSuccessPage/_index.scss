@@ -1,0 +1,80 @@
+.success-page {
+  .success-circle{
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 15px 30px 0 rgba(25,65,0,.08);
+    width: 10.625rem;
+    height: 10.625rem;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 10.625rem;
+    margin-bottom: 3.3125rem;
+  }
+
+  .m-pricing-table-2 .m-pricing-table-2__head {
+    text-align: center;
+    background-image: url('../img/signin_img1.png');
+    background-size: cover;
+    background-position: bottom right;
+    padding: 8.57rem 0 25rem 0;
+  }
+
+  .m-pricing-table-2__visual {
+    margin-bottom: 250px;
+  }
+
+  .m-pricing-table-2__subtitle--custom {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 0 !important;
+    color: #a4a6ae !important;
+    font-size: 20px !important;
+  }
+  button {
+    font-size: 20px !important;
+    line-height: initial !important;
+    margin-bottom: 40px !important;
+    margin-top: 60px !important;
+  }
+
+  .m-portlet {
+    background-color: transparent !important;
+    box-shadow: none !important;
+  }
+  .m-pricing-table-2 {
+    padding: 0 !important;
+  }
+
+  .green {
+    &:before {
+      border-bottom: 5.71rem solid rgba(52, 191, 163, 0.1) !important;
+    }
+    &:after {
+      border-top: 5.71rem solid rgba(52, 191, 163, 0.1) !important;
+    }
+  }
+
+  .red {
+    &:before {
+      border-bottom: 5.71rem solid rgba(244, 81, 108, 0.1) !important;
+    }
+    &:after {
+      border-top: 5.71rem solid rgba(244, 81, 108, 0.1) !important;
+    }
+  }
+
+  .check {
+    margin: 0 1rem;
+    .button {
+      width: inherit;
+      padding: 0 1rem !important;
+    }
+  }
+
+}
+
+
+.m-pricing-table-2 .m-pricing-table-2__head {
+  background-color: #102c42;
+}

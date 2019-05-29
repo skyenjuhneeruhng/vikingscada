@@ -1,0 +1,78 @@
+.form-group {
+  label {
+    width: 100%;
+    font-family: Poppins;
+    color:  #67737e;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .inpt {
+
+    &-errors {
+      border-color: #f00 !important;
+    }
+
+    &-primary {
+      border-radius: 4px;
+      border-width: 1px;
+      border-color:  #e0e8f1;
+      border-style: solid;
+      background-color:  #ffffff;
+      height: 30px;
+      line-height: 30px;
+      margin-bottom: 10px;
+      padding: 0;
+      padding-left: 11px;
+      font-family: Roboto;  
+      color:  #8d99a4;
+      font-size: 14px;
+      padding-top: 0;
+      padding-bottom: 0;
+      &:focus {
+        border-color: #fcbd20;
+        outline: none;
+        box-shadow: none;
+      }
+    }
+    &-secondary {
+      font-family: Roboto;
+      color:  #000000;
+      font-size: 14px;
+      font-weight: 400;
+      border-radius: 2px;
+      border-width: 1px;
+      border-color:  #e0e8f1;
+      border-style: solid;
+      background-color:  #ffffff;
+      height: 35px;
+      margin-top: 5px;
+      padding-left: 14px;
+      box-shadow: none;
+      padding-top: 0;
+      padding-bottom: 0;
+
+      &:focus {
+        border-color: #fcbd20;
+        color:  #000000;
+        outline: none;
+        box-shadow: none;
+      }
+    }
+  }
+
+  /* For Firefox */
+  input[type='number'] {
+    -moz-appearance:textfield;
+  }
+  /* Webkit browsers like Safari and Chrome */
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}

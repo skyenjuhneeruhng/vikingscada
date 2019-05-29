@@ -1,0 +1,31 @@
+.nav-tabs {
+  .nav-item {
+    &__padding-none {
+      padding: 0 !important;
+    }
+    a {
+      color: #7b7e8a !important;
+      text-decoration: none;
+      line-height: 46px;
+      display: inline-block;
+
+      &:hover {
+        color: #f7bd27 !important;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.content.m-form {
+  .alert {
+    margin-bottom: 0;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .full-with-sm {
+    display: block !important;
+  }
+}

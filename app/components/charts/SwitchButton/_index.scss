@@ -1,0 +1,21 @@
+.switch-container {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+
+  table {
+    width: 100%;
+    table-layout: fixed;
+
+    .name {
+      width: 60%;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+
+    .btn {
+      width: 30%;
+    }
+  }
+}

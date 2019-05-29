@@ -1,0 +1,178 @@
+.companies {
+  .m-portlet .m-portlet__head {
+    border-bottom: none !important;
+  }
+  .m-portlet__body {
+    padding-top: 0 !important;
+  }
+
+  .btn.btn-warning {
+    background-color: #f7bd27 !important;
+    color: #ffffff !important;
+    border-color: #ffc107 !important;
+    box-shadow: none !important;
+
+    &:hover {
+      color: #f7bd27 !important;
+      border-color: #f7bd27 !important;
+      background-color: #fff !important;
+    }
+  }
+
+  .m-datatable__table {
+    overflow-x: auto !important;
+  }
+
+  .m-datatable__row {
+    .sort {
+      &:hover {
+        background-color: #acacac;
+        cursor: pointer;
+      }
+
+      &:active {
+        border: none;
+        transition: all 1s ease-out;
+        background-color: #f78c0f !important;
+      }
+    }
+
+    left: 0px;
+    &:nth-child(even) {
+      background-color: #f5f6f9;
+    }
+    th {
+      &:nth-child(1) {
+        padding-left: 30px !important;
+      }
+    }
+    td {
+      &:nth-child(1) {
+        padding-left: 30px !important;
+      }
+    }
+  }
+  thead {
+    .m-datatable__cell {
+      font-family: Poppins;
+      &-arrow {
+        width: 20px;
+        display: inline-block;
+      }
+      &-name {
+        width: 300px;
+      }
+      &-sites {
+        width: 180px;
+      }
+      &-state {
+        width: 180px;
+      }
+      &-date {
+        width: 80px;
+      }
+      &-status {
+        width: 100px;
+      }
+      &-actions {
+        width: 70px;
+      }
+    }
+  }
+  tbody {
+    .pointer {
+      cursor: pointer;
+    }
+
+    .m-datatable__cell {
+      font-family: Poppins;
+      &-arrow {
+        width: 20px;
+        display: inline-block;
+        i {
+          width: 20px;
+        }
+      }
+      &-name {
+        width: 300px;
+      }
+      &-sites {
+        width: 180px;
+      }
+      &-state {
+        width: 180px;
+      }
+      &-date {
+        width: 80px;
+        font-weight: 300;
+      }
+      &-status {
+        width: 100px;
+        overflow: visible !important;
+      }
+      &-actions {
+        width: 70px;
+      }
+      &-info {
+        width: 351px;
+      }
+      &-sites-list {
+        width: 750px;
+        ul {
+          padding-left: 0 !important;
+        }
+      }
+
+      ul {
+        margin: 0;
+        padding: 0;
+        padding-left: 40px;
+        list-style: none;
+
+        li {
+          font-family: Poppins;
+          color:  #575962;
+          font-size: 14px;
+          line-height: 30px;
+
+          span {
+            &:nth-child(1) {
+              font-weight: 500;
+              display: inline-block;
+              min-width: 110px;
+            }
+            &:nth-child(2) {
+              font-weight: 300;
+            }
+          }
+
+          &.sites {
+            span {
+              font-weight: 300;
+            }
+          }
+        }
+
+        &.sensors-add-list {
+          li {
+            span {
+              &:nth-child(1) {
+                min-width: 210px;
+              }
+            }
+          }
+        }
+      }
+
+
+    }
+
+    .m-datatable__row {
+      &--sub {
+        td {
+          vertical-align: top !important;
+        }
+      }
+    }
+  }
+}
